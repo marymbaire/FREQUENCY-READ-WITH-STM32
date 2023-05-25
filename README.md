@@ -1,1 +1,2 @@
 # FREQUENCY-READ-WITH-STM32
+This code interfaces STM32 microcontroler wuith a signal generator to read the frequency values outputted by the signal generator. The particular stm32 board used is Nucleo-h743zit6; we use arduino serial port to read the data given out by the signal generator. We are using ReadCapture in stm32 cube ide to read successive rising edges and using the clock source, which I have set to 75MHzto convert the read pulses to frequency values.
